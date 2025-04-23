@@ -1,0 +1,287 @@
+body {
+
+    font-family: sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #f4f4f4;
+
+    color: #333;
+
+}
+
+header {
+
+    background-color: #e91e63; /* Cor rosa Avon */
+
+    color: #fff;
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+header img {
+
+    max-width: 150px;
+
+    height: auto;
+
+}
+
+main {
+
+    padding: 20px;
+
+}
+
+.hero {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 40px;
+
+    background-color: #fff;
+
+    padding: 30px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.hero-content {
+
+    flex: 1;
+
+    padding-right: 20px;
+
+}
+
+.hero-content h1 {
+
+    color: #e91e63;
+
+    margin-bottom: 10px;
+
+}
+
+.hero-content p {
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+
+}
+
+.hero-image {
+
+    flex: 1;
+
+    text-align: center;
+
+}
+
+.hero-image img {
+
+    max-width: 300px;
+
+    height: auto;
+
+    border-radius: 8px;
+
+}
+
+.benefits {
+
+    text-align: center;
+
+    margin-bottom: 40px;
+
+}
+
+.benefits h2 {
+
+    color: #e91e63;
+
+    margin-bottom: 20px;
+
+}
+
+.benefit-item {
+
+    display: inline-block;
+
+    width: 30%;
+
+    padding: 20px;
+
+    margin: 10px;
+
+    background-color: #fff;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+
+}
+
+.benefit-item img {
+
+    max-width: 80px;
+
+    height: auto;
+
+    margin-bottom: 10px;
+
+}
+
+.benefit-item h3 {
+
+    color: #333;
+
+    margin-bottom: 5px;
+
+}
+
+.benefit-item p {
+
+    font-size: 0.9em;
+
+    color: #666;
+
+}
+
+.cta {
+
+    text-align: center;
+
+    background-color: #f9f9f9;
+
+    padding: 40px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    margin-bottom: 40px;
+
+}
+
+.cta h2 {
+
+    color: #e91e63;
+
+    margin-bottom: 15px;
+
+}
+
+.cta p {
+
+    font-size: 1.1em;
+
+    line-height: 1.6;
+
+    margin-bottom: 20px;
+
+}
+
+.button {
+
+    display: inline-block;
+
+    padding: 12px 24px;
+
+    background-color: #e91e63;
+
+    color: #fff;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+
+    transition: background-color 0.3s ease;
+
+}
+
+.button:hover {
+
+    background-color: #d4145a;
+
+}
+
+.buy-button {
+
+    font-size: 1.2em;
+
+    padding: 15px 30px;
+
+}
+
+footer {
+
+    background-color: #333;
+
+    color: #fff;
+
+    text-align: center;
+
+    padding: 10px;
+
+    position: fixed;
+
+    bottom: 0;
+
+    width: 100%;
+
+}
+
+/* Estilos para telas menores */
+
+@media (max-width: 768px) {
+
+    .hero {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+    .hero-content {
+
+        padding-right: 0;
+
+        margin-bottom: 20px;
+
+    }
+
+    .hero-image img {
+
+        max-width: 80%;
+
+    }
+
+    .benefit-item {
+
+        width: 80%;
+
+        margin: 15px auto;
+
+        display: block;
+
+    }
+
+}
