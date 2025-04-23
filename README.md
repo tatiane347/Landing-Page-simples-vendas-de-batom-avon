@@ -29,7 +29,7 @@ Sinta-se à vontade para explorar o código, reportar issues e propor melhorias 
 💼 Desenvolvedor Frontend:
 [TatianeNascimento]
 [Seu LinkedIn 👩‍💻 https://www.linkedin.com/in/tatiane-nascimento-68b0622bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-[Seu Github (opcional)] 
+[Seu Github [(opcional)](https://github.com/tatiane347/Landing-Page-simples-vendas-de-batom-avon
 
 ![17454175672861612557027470689138](https://github.com/user-attachments/assets/298d22e4-01dc-421e-9d81-ae5bccca0d34)
 
